@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#game {
+  border: 1px solid black;
+}
+.gamecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(img/waltpaper1.jpg) center bottom/cover no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 60px;
+}
+.gametitle {
+  padding: 20px 20px;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  position: relative;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gametitle__back {
+  position: absolute;
+}
+.gametitle__front {
+  position: absolute;
+  font-size: 70px;
+  color: orange;
+  letter-spacing: 4px;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 40px 20px;
+}
+@media (max-width: 420px) {
+  .gametitle__back {
+    font-size: 48px;
+  }
+  .gametitle__front {
+    font-size: 40px;
+  }
+}
