@@ -17,6 +17,7 @@ body {
   background: url(img/waltpaper1.jpg) center bottom/cover no-repeat;
   background-attachment: fixed;
   padding-bottom: 60px;
+  min-height: 100vh;
 }
 .gametitle {
   padding: 20px 20px;
